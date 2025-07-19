@@ -26,14 +26,16 @@ def local_css():
             }
             .container {
                 max-width: 1200px;
-                margin: 0 auto;
-                padding-left: 1px;
-                padding-right: 1px;
+                margin-left: auto;
+                margin-right: auto;
+                padding-left: 0;
+                padding-right: 0;
             }
             .navbar {
                 width: 100%;
                 max-width: 1200px;
-                margin: 0 auto;
+                margin-left: auto;
+                margin-right: auto;
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
@@ -103,6 +105,9 @@ def local_css():
                 justify-content: space-between;
                 margin-top: 24px;
                 margin-bottom: 32px;
+                max-width: 1200px;
+                margin-left: auto;
+                margin-right: auto;
             }
             .hero-content {
                 max-width: 600px;
