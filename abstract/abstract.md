@@ -1,4 +1,6 @@
 Abstract
+
+
 With the increasing prevalence of online job frauds, job seekers—especially students and fresh graduates—are frequently exposed to misleading and deceptive job postings. This project aims to address this issue by developing a machine learning–based web application capable of detecting fake job advertisements. The system leverages Natural Language Processing (NLP) techniques to extract textual features from job descriptions and employs supervised learning models such as XGBoost and Random Forest to classify them as either real or fraudulent.
 
 The frontend interface is built using Streamlit, offering an interactive and user-friendly experience where users can input or paste job descriptions for real-time prediction. The model is trained on a labeled dataset of real and fake job postings using TF-IDF vectorization and is further explained using SHAP for interpretability. Additional features include red-flag keyword detection, example job testing, and plans for implementing prediction history tracking.
